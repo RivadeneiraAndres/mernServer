@@ -1,0 +1,32 @@
+/* .izq img,.der img{
+width: 45%;
+/* margin-left:12px; */
+/* margin-top: 12px; *//*
+height: 200px;
+}
+.itemcaru{
+    width: 100%;
+    /* align-items: center; *//*
+    overflow: hidden;
+    height: 464px;
+}
+.izq{
+    float: left;
+}
+.der{
+    float: right;
+} */
+/*
+.itemcaru{
+    width: 100vw;
+    overflow: hidden;
+    height: 60vw;
+    display: flex;
+    
+}
+.imagen{
+    width: 41w;
+    height: 38vw;
+    padding: 1vw;
+    justify-content: space-around;
+}*/
