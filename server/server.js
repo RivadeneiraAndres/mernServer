@@ -4,6 +4,14 @@ const app = express();
 app.get('/', (req, res) => {
     cityModel.find().then(data => { return (res.send(data)) })
     console.log('hola');
-    //return res.send('hola')
+    //return res.send('hola')a
 })
-app.listen(3001, () => console.log("server listen port 3001"));
+app.get('/test', (req, res) => {
+    //cityModel.find().then(data => { return (res.send(data)) })
+    console.log('hello world');
+    res.send('hello world');
+})
+
+// app.use('/', router);
+
+eapp.listen(3001, () => console.log("server listen port 3001"));
